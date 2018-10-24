@@ -1,0 +1,9 @@
+.none{
+  color: white;
+}
+@media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .ms-about{
+          margin-left: auto;
+          margin-right: auto;
+        }
+     }

@@ -1,0 +1,102 @@
+/* 全体的なスタイル
+-------------------------------------------------- */
+/* フッターの下の空白と明るめの本文 */
+
+body {
+  color: #5a5a5a;
+  position: relative;
+}
+/* フィーチャー
+------------------------- */
+
+.featurette-divider {
+  margin: 0; /* ブートストラップの&lt;hr&gt;をもっと外に出す */
+}
+
+
+/* レスポンシブCSS
+-------------------------------------------------- */
+
+
+@media (min-width: 40em) {
+  /* カルーセルコンテンツのサイズを大きくする */
+  .carousel-caption p {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+.mega-dropdown {
+  position: static;
+}
+.dropdown-menu.mega-dropdown-menu.show {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  margin:0;
+  background-color:#017bc4;
+}
+
+.dropdown-menu.mega-dropdown-menu.show a{
+  color: white;
+}
+
+.dropdown-item:hover{
+  background-color:#017bc4;
+}
+
+.dropdown-submenu:hover .dropdown-submenu-menu {
+  visibility: visible;
+}
+
+.dropdown-submenu-menu {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+
+p.card-text {
+  word-wrap: break-word;
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+.jumbotron {
+  background-image: url("../img/index/bg.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  margin-top: 10rem;
+}
+
+@media screen and (min-width:970px){
+
+.mr-5-minus{
+  margin-right: -3rem;
+  margin-left: 3rem;
+  z-index: 1;
+}
+
+.ml-5-minus{
+  margin-left: -3rem;
+  margin-right: 3rem;
+  z-index: 1;
+}
+}
+
+.item img {
+width:100%;}
+
+.fluid2 {
+padding:0;}
+
+
+@media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .ms-width{
+          width: 25%;
+        }
+     }

@@ -1,0 +1,14 @@
+$custom1:#000000; // カラー1：ブラック
+$custom2:#FF2C00; // カラー2：レッド
+$custom3:#000cf7; // カラー3：ブルー
+$custom4:#432A69; // カラー4：パープル
+$custom5:#ffed0f; // カラー5：イエロー
+$theme-colors: (
+  "custom1": $custom1,
+  "custom2": $custom2,
+  "custom3": $custom3,
+  "custom4": $custom4,
+  "custom5": $custom5
+);
+ 
+@import "paper-kit.scss";

@@ -1,0 +1,15 @@
+footer .none{
+  color: white !important;
+}
+.newMark{
+	display:inline-block;
+	border:1px solid #F00;
+	padding:1px 4px;
+	font-size:11px;
+	line-height:100%;
+	background:#F00;
+	color:#fff;
+	box-shadow:1px 1px 1px #999;
+	border-radius:8px;
+	font-style:italic;
+}

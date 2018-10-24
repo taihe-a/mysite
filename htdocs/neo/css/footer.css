@@ -1,0 +1,115 @@
+footer {
+  background-color: #149ee7;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover{
+  color:white;
+}
+
+small {
+  color: white;
+}
+
+h1 {
+  color: #149ee7;
+}
+
+h2{
+  color: #149ee7;
+}
+
+h3{
+  color: #149ee7;
+}
+
+.btn-solar {
+  color: white;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
+}
+
+.btn-premium {
+  color: white;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-renovation {
+  color: white;
+  background-color: #53439c;
+  border-color: #53439c;
+}
+
+.btn-b-light {
+  color: white;
+  background-color: #34b3d1;
+  border-color: #34b3d1;
+}
+
+.btn-b-neo {
+  color: white;
+  background-color: #149ee7;
+  border-color: #149ee7;
+}
+
+.bg-solar {
+  background-color: #ff7f02ad;
+}
+
+.bg-b-light {
+  background-color: #34b3d1;
+}
+
+.bg-renovation {
+  background-color: #53439cad;
+}
+
+.bg-premium {
+  background-color: #ff0000ad;
+}
+
+.bg-gray {
+  background-color: rgba(9, 80, 159, 0.17);
+}
+
+.btn-outline-white {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: white;
+  border: solid 2px white;
+  border-radius: 3px;
+  transition: .4s;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.btn-outline-white:hover {
+    background: white;
+    color: #0950a0;
+
+}
+
+.my-5-minus{
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+}
+
+.my-3-minus{
+  margin-top: -3rem;
+  margin-bottom: -3rem;
+}
+
+/* #concept,#why,#strong,#member,#class,#kind{
+  margin-top: -80px; /* 固定ナビの高さ分のネガティブマージン */
+/*  padding-top: 80px; /* 打ち消し用のパディング }
